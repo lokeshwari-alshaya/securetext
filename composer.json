@@ -1,0 +1,24 @@
+{
+  "name": "nikunjkotecha/securetext",
+  "description": "Library to allow encrypting and decrypting text.",
+  "type": "library",
+  "require": {
+    "php": ">=8.1"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nikunj Kotecha",
+      "email": "8104795+nikunjkotecha@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "SecureText\\": "src/"
+    },
+    "files": [
+      "src/SecureText.php"
+    ]
+  }
+}
